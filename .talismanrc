@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: 01/providers.tf
+  checksum: 97c171a2cf76057be42f74b7dfaa6144f476129fa4cfb9f00ac0e25de3d72abc
+version: "1.0"
