@@ -1,4 +1,8 @@
 fileignoreconfig:
 - filename: 01/providers.tf
   checksum: 97c171a2cf76057be42f74b7dfaa6144f476129fa4cfb9f00ac0e25de3d72abc
+- filename: 02/.terraform.lock.hcl
+  checksum: 1f8ea288290a823e00f0e978f28b23610d76db8c6b5cc8ca4792ce3df9a2b25a
+- filename: 02/providers.tf
+  checksum: 22887f15d3060bdd0d883070461445cc9de4425ad72a96c69ee89b47a3cdeb23
 version: "1.0"
