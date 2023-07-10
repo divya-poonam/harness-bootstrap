@@ -19,9 +19,9 @@ resource "aws_iam_role" "demo_role_for_harness_bootstrap" {
 
 data "aws_iam_policy_document" "demo_policy_document_for_harness_bootstrap" {
   statement {
-    effect   = "Allow"
-    action   = "iam:CreateRole"
-    resource = "arn:aws:iam::160071257600:role/demo-role-for-harness"
+    effect    = "Allow"
+    actions   = ["iam:CreateRole"]
+    resources = ["arn:aws:iam::160071257600:role/demo-role-for-harness"]
   }
 }
 
